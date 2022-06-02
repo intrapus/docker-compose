@@ -20,7 +20,7 @@ services:
     volumes:
       - /root/snipe_it:/config
     environment:
-      - APP_URL=http://10.0.5.2:8084
+      - APP_URL=null
       - MYSQL_PORT_3306_TCP_ADDR=mysql
       - MYSQL_PORT_3306_TCP_PORT=3306
       - MYSQL_DATABASE=snipe
